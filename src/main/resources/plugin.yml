@@ -1,0 +1,25 @@
+name: QualityMinecraft
+version: '${project.version}'
+main: net.thetabork.qualityminecraft.QualityMinecraft
+api-version: '1.21'
+commands:
+  god:
+    description: Godmode
+    permission: admin
+  feed:
+    description: feeds the given player
+    usage: /<command>
+    aliases:
+      - food
+      - feeds
+    permission: admin
+  fly:
+    description: enables flight
+    usage: /<command>
+    permission: admin
+
+
+permissions:
+  admin:
+    description: Allows access specific commands.
+    default: op
