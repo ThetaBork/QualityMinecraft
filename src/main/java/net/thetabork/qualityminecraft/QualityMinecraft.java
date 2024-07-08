@@ -1,7 +1,5 @@
 package net.thetabork.qualityminecraft;
 
-import net.kyori.adventure.text.Component;
-import net.kyori.adventure.text.format.NamedTextColor;
 import net.kyori.adventure.text.minimessage.MiniMessage;
 import net.thetabork.qualityminecraft.commands.FeedCommand;
 import net.thetabork.qualityminecraft.commands.FlyCommand;
@@ -10,7 +8,6 @@ import net.thetabork.qualityminecraft.listeners.BedLeaveListener;
 import net.thetabork.qualityminecraft.listeners.BreedingListener;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
-import org.bukkit.event.player.PlayerBedLeaveEvent;
 import org.bukkit.event.player.PlayerJoinEvent;
 import org.bukkit.plugin.java.JavaPlugin;
 
